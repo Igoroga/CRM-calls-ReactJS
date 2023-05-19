@@ -5,7 +5,7 @@ import { v1 } from 'uuid'
 import { Audio } from '../commons/audio'
 import mp3 from  '../../forStyle/audio/sound.mp3'
 import { callsAxios } from '../../api/api'
-import AudioPlayer from '../commons/testAudio'
+
 
 
 const TableStyled = styled.div`
@@ -22,7 +22,7 @@ const TableStyled = styled.div`
     align-items: center;
     color: #899CB1;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 401;
     padding: 0 40px;
     .duration{
       justify-self: end;
